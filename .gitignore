@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea
+/bower_components
+.idea/vcs.xml
+bower_components/angular-google-maps/spec/backend/
+bower_components/google-maps-utility-library-v3-infobox/docs/
+bower_components/google-maps-utility-library-v3-infobox/examples/
+bower_components/google-maps-utility-library-v3-keydragzoom/example/
+bower_components/google-maps-utility-library-v3-markerwithlabel/docs/
+bower_components/jquery/src/core/nodeName.js
+bower_components/markerclustererplus/docs/

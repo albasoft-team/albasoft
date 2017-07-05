@@ -1,0 +1,48 @@
+<div ui-view="header"></div>
+<div class="headline " id="ID_line_76242"><div class="background" id="ID_line_background_76242" ng-style="stContact"></div><div class="container "><div class="container-directive"><div class="row sortable sortable-container "><div class="container-sortable float-left fullwidth"><div id="wrapper-73760" class="wrapper float-left"><div class="fullwidth float-left"><div class="float-left column-id-139792 col-front liaisons-sortable tp-line col container-column"><div id="liaison-304979" class="liaison-container columns-padding col-xs-12"><div class="portlet margin-titre"><div><h1 class="margin-auto" id="ID_plugin_305242">
+    Nous contacter
+</h1></div></div></div></div></div></div></div></div></div></div></div><div class="headline " id="ID_line_76243"><div class="background" id="ID_line_background_76243"></div><div class="container "><div class="container-directive"><div class="row sortable sortable-container "><div class="container-sortable float-left fullwidth"><div id="wrapper-73761" class="wrapper float-left"><div class="fullwidth float-left"><div class="float-left column-id-139793 col-front liaisons-sortable tp-line col container-column"><div id="liaison-304980" class="liaison-container columns-padding col-xs-12"><div class="portlet margin-titre"><div><h3 class="margin-auto" id="ID_plugin_304980">
+    Parlez-nous de vos projets
+</h3></div></div></div><div id="liaison-304981" class="liaison-container columns-padding col-xs-12"><div class="portlet margin-contenu"><div id="ID_plugin_304981" class="margin-auto padding-auto"><p>
+</p></div></div></div>
+
+    <!--<div ng-if="MessagesInfo.length > 0" ng-repeat="msg in MessagesInfo">-->
+        <!--<span class=""></span>-->
+        <!--<span class="">{{ msg.messageAlert }}</span>-->
+    <!--</div>-->
+
+    <div id="liaison-304982" class="liaison-container columns-padding col-xs-12">
+        <div class="portlet margin-formulaire">
+            <div id="ID_plugin_304982" class="formulaire margin-auto padding-auto">
+                <form ng-submit="contactManager()">
+                    <div class="form-field-wb" style="width:50%">
+                        <input placeholder="Compagnie" ng-model="formData.Company" required="required" class="field form-control" id="field-5014" type="text"  value="">
+                    </div>
+                    <div class="form-field-wb" style="width:100%">
+                        <input placeholder="E-mail" ng-model="formData.Email"  class="field form-control" id="field-5015" type="email"  value=""
+                               required="required">
+                    </div>
+                    <div class="form-field-wb" style="width:50%">
+                        <input placeholder="Sujet" ng-model="formData.Subject" required="required" class="field form-control" id="field-5013" type="text"  value="">
+                    </div>
+                    <div class="form-field-wb" style="width:100%">
+                        <textarea placeholder="Message" ng-model="formData.Message" required="required"  class="field form-control" id="formMessage" ></textarea>
+                    </div>
+                    <button type="submit"  class=" btn btn bg-primary">
+                        <i class="ico-btn spectrum-304982 glyphicon glyphicon-ok-circle"></i>
+                            Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div style="position:relative; " id="liaison-304983" class="liaison-container columns-padding col-xs-12 margin-auto container-woobigmap middle">
+        <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+            <ui-gmap-markers click="clickMarker" icon="'icon'" idKey="'id'" models="markers" coords="'coord'">
+            </ui-gmap-markers>
+        </ui-gmap-google-map>
+    </div>
+
+</div>
+    </div></div></div></div></div></div></div>
+<div ui-view="footer"></div>

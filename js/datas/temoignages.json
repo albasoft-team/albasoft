@@ -1,0 +1,41 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/solutions1.jpg",
+        "title":"Nos Témoignages",
+        "description":"",
+        "text":"texte complet"
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Témoignage 1",
+              "image":"img/320-FT18I6U09O.jpg",
+              "description":"Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte. Cliquez sur le bloc de texte pour paramétrer celui-ci grâce à la palette de paramétrage. Editez l'alignement, la couleur, la taille, les marges, etc... Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte.",
+              "text":"long description1"
+            },
+            {
+              "title":"Témoignage 2 ",
+              "image":"img/320-CG548Y4RPC.jpg",
+              "description":"Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte. Cliquez sur le bloc de texte pour paramétrer celui-ci grâce à la palette de paramétrage. Editez l'alignement, la couleur, la taille, les marges, etc... Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte.",
+              "text":"long description2"
+            },
+            {
+              "title":"Témoignage 3",
+              "image":"img/320-XX6Z6PRZRM.jpg",
+              "description":"Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte. Cliquez sur le bloc de texte pour paramétrer celui-ci grâce à la palette de paramétrage. Editez l'alignement, la couleur, la taille, les marges, etc... Cliquez ici pour paramétrer le texte. Double cliquez et utilisez la barre de menu au dessus pour paramétrer votre texte.",
+              "text":"long description3"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

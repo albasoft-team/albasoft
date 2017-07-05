@@ -1,0 +1,98 @@
+<div id="loading-bar-container"></div>
+<div class="headline content"  id="ID_line_76205">
+    <div class="background" id="ID_line_background_76205" ng-style="stAccueil"></div>
+    <div class="container ">
+        <div class="container-directive">
+            <div class="row sortable sortable-container ">
+                <div class="container-sortable float-left fullwidth">
+                    <div id="wrapper-73725" class="wrapper float-left">
+                        <div class="fullwidth float-left">
+                            <div  class="float-left column-id-139722 col-front liaisons-sortable tp-line col container-column">
+                                <div  id="liaison-304821" class="liaison-container columns-padding col-xs-12">
+                                    
+                                    <div class="portlet margin-titre">
+                                        <div>
+                                            <h1 class="margin-auto" id="ID_plugin_304821">{{resultData.pageId.page.header.title}}</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="liaison-304822" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-separateur">
+                                        <div id="ID_plugin_304822" class="margin-auto home_separator_container">
+                                            <div  id="ID_separator_304822" class="css-property-div home_separator"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="liaison-304823" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-titre">
+                                        <div>
+                                            <h3 class="margin-auto" id="ID_plugin_304823">
+                                                {{resultData.pageId.page.header.description}}
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  id="liaison-304824" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-bouton">
+                                        <div id="ID_plugin_304824" class="container-woobibtn margin-auto">
+                                            <a ui-sref="contact">
+                                                <div class="btn-front-size css-property-div btn-container rounded">
+                                                    <!-- title="Parlons de vos projets" -->
+                                                    <div class="btn-front met_bgcolor css-property-item spectrum-304824" title="">
+                                                        Parlons de vos projets
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="headline " id="ID_line_76206">
+    <div class="background" id="ID_line_background_76206"></div>
+    <div class="container ">
+        <div class="container-directive">
+            <div class="row sortable sortable-container ">
+                <div class="container-sortable float-left fullwidth">
+                    <div id="wrapper-73726" class="wrapper float-left">
+                        <div ng-repeat="section in resultData.pageId.page.Sections" class="fullwidth float-left">
+                            <div ng-repeat="column in section.columns" class="float-left column-id-139723 col-front liaisons-sortable tp-line col container-column">
+                            <div  id="liaison-304825" class="liaison-container columns-padding col-xs-12">
+                                <div class="portlet margin-icon">
+                                    <div id="ID_plugin_304825" class="margin-auto">
+                                    <div  id="ID_icon_304825" class="padding-auto i-fa paragraph css-property-item spectrum-304825">
+                                        <span class=""><img  width="110" height="110" src="{{column.image}}"></span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div id="liaison-304826" class="liaison-container columns-padding col-xs-12">
+                                <div class="portlet margin-titre">
+                                    <div><h3 class="margin-auto" id="ID_plugin_304826">{{column.title}}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="liaison-304827" class="liaison-container columns-padding col-xs-12">
+                                <div class="portlet margin-contenu">
+                                    <div id="ID_plugin_304827" class="margin-auto padding-auto">
+                                        <p>
+                                            {{column.description}}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+						</div>
+                           

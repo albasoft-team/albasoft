@@ -1,0 +1,36 @@
+{
+  "name": "albasoft",
+  "authors": [
+    "albasoft-team <ibrahima-sory.diallo@albasoft.fr>"
+  ],
+  "description": "site albasoft",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "^1.6.0",
+    "angular-google-maps": "2.4.0",
+    "angular-loading-bar": "^0.9.0",
+    "angular-spinner": "^0.8.1",
+    "angular-touch": "^1.6.0",
+    "bootstrap": "3",
+    "angular-ui-router-anim-in-out": "^1.0.2",
+    "angular-ui-router": "^0.3.2",
+    "angular": "^1.6.5",
+    "google-maps-utility-library-v3-infobox": "^1.1.14",
+    "google-maps-utility-library-v3-keydragzoom": "^2.0.9",
+    "google-maps-utility-library-v3-markerwithlabel": "^1.1.10",
+    "jquery": "^3.2.1",
+    "js-rich-marker": "*",
+    "markerclustererplus": "^2.1.4",
+    "spin.js": "^2.3.2",
+    "angular-simple-logger": "^0.1.7"
+  }
+}

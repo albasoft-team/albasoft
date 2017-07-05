@@ -1,0 +1,71 @@
+ <div class="headline " id="ID_line_76256">
+        <div class="background" id="ID_line_background_76256"   ng-style="stTemoin"></div>
+        <div class="container "><div class="container-directive">
+            <div class="row sortable sortable-container ">
+                <div class="container-sortable float-left fullwidth">
+                    <div id="wrapper-73774" class="wrapper float-left">
+                        <div class="fullwidth float-left">
+                            <div class="float-left column-id-139821 col-front liaisons-sortable tp-line col container-column">
+                                <div id="liaison-305034" class="liaison-container columns-padding col-xs-12">
+                                   
+                                    <div class="portlet margin-titre">
+                                        <div>
+                                            <h1 class="margin-auto" id="ID_plugin_305034">
+                                            {{temoignages.pageId.page.header.title}}
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="headline " id="ID_line_76257">
+        <div class="background" id="ID_line_background_76257"></div>
+        <div class="container "><div class="container-directive">
+            <div class="row sortable sortable-container ">
+                <div class="container-sortable float-left fullwidth">
+                    <div id="wrapper-73775" class="wrapper float-left" ng-repeat="temoignage in temoignages.pageId.page.Sections">
+                        <div class="fullwidth float-left" ng-repeat="resultService in temoignage.columns">
+                            <div  class="float-left column-id-139822 col-front liaisons-sortable tp-line col container-column">
+                                <div id="liaison-305035" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-image">
+                                        <div id="ID_plugin_305035" class="margin-auto container-img">
+                                            <div class="img-align-plugin css-property-item img-container-4870295">
+                                                <img alt="" class="img-wb-plugin img-responsive" src="{{resultService.image}}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="float-left column-id-139823 col-front liaisons-sortable tp-line col container-column">
+                                <div id="liaison-305036" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-titre">
+                                        <div>
+                                            <h3 class="margin-auto" id="ID_plugin_305036">
+                                                {{resultService.title}}
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="liaison-305037" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-contenu">
+                                        <div id="ID_plugin_305037" class="margin-auto padding-auto">
+                                            <p>
+                                                {{resultService.description}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>

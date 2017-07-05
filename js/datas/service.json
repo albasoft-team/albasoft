@@ -1,0 +1,51 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/services.jpg",
+        "title":"Nos services",
+        "descrition":" notre  description",
+        "text":"texte complet"
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Business Intelligent",
+              "image":"img/business_intelligence.png",
+              "description":"Avec notre équipe spécialisée BI, Albasoft est au fait des dernières innovations en matière d’analyse de données. Aujourd’hui, la capacité de recherche avec un résultat précis dans différentes sources de données est un enjeu majeur pour toutes les entreprises avec l’avènement du BIG DATA. En effet, les modes de recueil et de consultation des données ont fortement évolué ces 10 dernières années à travers l’apparition de divers supports de communication. Accéder à l’information où que l’on se trouve constitue un enjeu économique crucial pour toute entreprise soucieuse de sa rentabilité. C’est fort de cette conviction qu’Albasoft s’est doté d’une équipe d’experts BI pouvant répondre à tous vos besoins en matière d’analyse, d’interprétation et de représentation de vos données. Nos outils BI vous donnent une visibilité à temps réel sur l’ensemble des activités de votre entreprise vous aidant ainsi à prendre rapidement les bonnes décisions.",
+              "text":"long description1"
+            },
+            {
+              "title":"GED",
+              "image":"img/Logo-GED.png",
+              "description":"La Gestion Electronique de Documents constitue avec le BI les outils qu’aucune entreprise ne peut aujourd’hui se passer.  Autant le BI constitue un outil d’aide à la décision et de suivi de la production, la GED vous aide à gérer le cycle de vie de tous les documents de l’entreprise.  Albasoft vous accompagne, avec des outils efficaces, dans le suivi de tout document de votre entreprise. Elle vous permet de définir des workflow sur vos documents traçant toutes actions intervenues durant le cycle de vie de ceux-ci. Ces métadonnées sont le plus souvent exploitées avec nos outils BI.",
+              "text":"long description2"
+            },
+            {
+              "title":"Ingénierie logicielle",
+              "image":"img/ingenierie-icon.png",
+              "description":"Travaillant en synergie, nous vous proposons nos conseils et assurons des prestations en réalisation et en maintenance de vos logiciels selon les méthodes agiles. Cela vous assure une visibilité durant tout le cycle de réalisation de votre projet en vous impliquant du début à la fin évitant ainsi l'effet tunnel. ",
+              "text":"long description3"
+            }
+          ]
+        },
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"tabs"
+          },
+          "columns":[
+            {"title":"Conseil en organisation SI","image":"img/consultant.png","description":"Albasoft s'inscrit dans une logique d'urbanisation des SI. Cette notion qui repose sur le découplage des applications de l'entreprise et l'utilisation des SOA (Services Oriented Architecture), bien qu'ayant ses limites, présente tellement d'avantages que nous sommes séduits dès le début. Il est donc aisé de deviner que nos conseillers en organisation vous aident à tirer le meilleur de vos applications en permettant leur intégration de manière très souple. Pour ce faire, Albasoft définit avec vous la cartographie actuelle de votre SI, une cible et un plan de convergence clair.","text":"long description1"}
+          ]
+        }
+      ]
+    }
+  }
+}

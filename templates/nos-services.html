@@ -1,0 +1,70 @@
+
+<div id="loading-bar-container"></div>
+    <div class="headline " id="ID_line_76277">
+        <div class="background" id="ID_line_background_76277"  ng-style="stService"></div>
+        <div class="container ">
+            <div class="container-directive">
+                <div class="row sortable sortable-container ">
+                    <div class="container-sortable float-left fullwidth">
+                        <div id="wrapper-73798" class="wrapper float-left">
+                            <div class="fullwidth float-left">
+                                <div class="float-left column-id-139872 col-front liaisons-sortable tp-line col container-column">
+                                    <div id="liaison-305136" class="liaison-container columns-padding col-xs-12">
+                                       
+                                        <div class="portlet margin-titre">
+                                            <div>
+                                                <h1 class="margin-auto" id="ID_plugin_305242">
+                                                    {{services.pageId.page.header.title}}
+                                                </h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="headline " id="ID_line_76278" >
+    <div class="background" id="ID_line_background_76278"></div>
+    <div class="container ">
+        <div class="container-directive">
+            <div class="row sortable sortable-container ">
+                <div class="container-sortable float-left fullwidth">
+                    <div id="wrapper-73799" class="wrapper float-left">
+                        <div ng-repeat="service in services.pageId.page.Sections" class="fullwidth float-left">
+                            <div ng-repeat="resultService in service.columns" class="float-left column-id-139873 col-front liaisons-sortable tp-line col container-column">
+                                <div id="liaison-305137" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-icon"><div id="ID_plugin_305137" class="margin-auto">
+                                        <div id="ID_icon_305137" class="padding-auto i-fa paragraph css-property-item spectrum-305137">
+                                            <img src="{{resultService.image}}" width="100" height="100">
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div id="liaison-305138" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-titre">
+                                        <div>
+                                            <h3 class="margin-auto" id="ID_plugin_305138">
+                                                {{resultService.title}}
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="liaison-305139" class="liaison-container columns-padding col-xs-12">
+                                    <div class="portlet margin-contenu">
+                                        <div id="ID_plugin_305139" class="margin-auto padding-auto">
+                                            <p>{{resultService.description}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+{
+  "pageId":{
+    "page":{
+      "header":{
+        "image":"img/informatique.jpg",
+        "title":"Notre objectif : Vous aider à hisser votre entreprise au sommet de la performance",
+        "description":"",
+        "text":""
+      },
+      "Sections":[
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"panel"
+          },
+          "columns":[
+            {
+              "title":"Des idées innovantes",
+              "image":"img/innov.png",
+              "description":"Constamment à la recherche de la performance, notre entreprise est au plus près de ses clients pour leur proposer ses meilleures idées en termes d'exploitation des données.",
+              "text":"long description1"
+            },
+            {
+              "title":"Une équipe qualifiée ",
+              "image":"img/equipe.jpg",
+              "description":"Albasoft met tout en oeuvre pour se doter toujours d'équipes de profesionnels hautement qualifiés pour répondre au mieux aux demandes de ses clients. La formation continuelle tient une place prépondérante dans la stratégie d'Albasoft.",
+              "text":"long description2"
+            },
+			{"title":"Qualité",
+			"image":"img/qualite.jpg",
+			"description":"Respecter les exigences fonctionnelles du client est le minimum qu'Albasoft s'engage à faire. Albasoft garantit ainsi d'offrir des services d'une qualité incontestable en allant au delà de l'imagination du client. Albasoft tient à ce que toutes ses réalisations soient fiables, faciles à utiliser, performantes et maintenables.","text":""}
+
+          ]
+        },
+        {
+          "meta":{
+            "imageposition":"height",
+            "class":"classname",
+            "layout":"tabs"
+          },
+          "columns":[
+                        {"title":"Délais","image":"img/delai.jpg","description":"Le respect des délais passe par la maîtrise des facteurs de risque du projet. Albasoft associe toutes les parties prenantes pour prévenir ces facteurs de risque qui peuvent provenir de la gestion du projet, des ingénieurs, du donneur d'ordre, de la sous-traitance, etc...","text":"long description2"}
+          ]
+        }
+      ]
+    }
+  }
+}
